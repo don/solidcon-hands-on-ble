@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>BLE Scan</title>
+    </head>
+    <body>
+        <div>
+            <h2>BLE Scan</h2>
+            <ul id="deviceList">
+            </ul>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            window.addEventListener('load', function() {
+                new FastClick(document.body);
+            }, false);
+
+            app.initialize();
+        </script>
+    </body>
+</html>
