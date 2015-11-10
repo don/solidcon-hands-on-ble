@@ -10,7 +10,7 @@ body {
     -webkit-appearance: none;
 
     font-family: "Helvetica Neue";
-    font-weight: lighter;
+    /* font-weight: lighter; */
     color: #2a2a2a;
     background-color: #f0f0ff;
 }
